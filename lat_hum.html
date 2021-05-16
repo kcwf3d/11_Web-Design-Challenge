@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="header_style.css">
-
-</style>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style_theme.css">
 </head>
 <body>
 
-<div class="topnav">
-  <a class="active" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/hwk_index.html">Summary</a>
-  
-  <div class="topnav-right">
-    <div class="dropdown">
-      <button class="dropbtn">Plots
-        <i class="fa fa-caret_down"></i>
-      </button>
-      <div class="dropdown-content">
-        <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_temp.html">Latitude vs Temperature</a>
-        <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_hum.html">Latitude vs Humidity</a>
-        <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_cloud.html">Latitude vs Cloudiness</a>
-        <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_wind.html">Latitude vs Wind Speed</a>
-      </div>
-    </div>
-  
-    <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/comparison.html">Comparison</a>
-    <a href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/data.html">Data</a>
-    </div>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Latitude vs Humidity</h2>
-  <p>Some content..</p>
-</div>
-
-</body>
-</html>
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="C:\Users\kcwf3\All Homework\11_Web-Design-Challenge\test.html">Summary</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_temp.html">Latitude vs Temperature</a>
+                      <a class="dropdown-item" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_hum.html">Latitude vs Humidity</a>
+                      <a class="dropdown-item" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_cloud.html">Latitude vs Cloudiness</a>
+                      <a class="dropdown-item" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/lat_wind.html">Latitude vs Wind Speed</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="file:///C:/Users/kcwf3/All%20Homework/11_Web-Design-Challenge/data.html"">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
