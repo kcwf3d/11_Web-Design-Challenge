@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Web Design Homework Landing Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style_theme.css">
+</head>
+<body> 
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Summary</a>
+                </li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="lat_temp.html">Latitude vs Temperature</a>
+                      <a class="dropdown-item" href="lat_hum.html">Latitude vs Humidity</a>
+                      <a class="dropdown-item" href="lat_cloud.html">Latitude vs Cloudiness</a>
+                      <a class="dropdown-item" href="lat_wind.html">Latitude vs Wind Speed</a>
+                    </div>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comparison.html">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html"">Data</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container bg-light">
+        <div class="row p-3">
+          <div class="col-md-8">
+            <h1 class="text-center"><b>Summary of Weather Data</b></h1>
+            <p class="text-center p-3"><font size="+2">The purpose of this project is to see how weather changes when moving from the poles to the equator.First the data was pulled from the OpenWeatherMap API to create a data set of over 500 cities.  After the data was cleaned up in Jupyter Notebook, it was then analyzed using Matplotlib. The main factors that we focused on were temperature, humidity, cloudiness, and wind speed.  The source data and visualizations can be found on this site. </font></p>
+            <img src="images\API.png" class=" mx-auto d-block"width="450"></a>
+            <img src="images\jupyter.png"class="mx-auto d-block"width="450"></a>
+          </div>
+          <div class="col-md-4">
+            <h2 class="text-center">Visualization</h2>
+              <a href="lat_temp.html"><img src="images\Fig1.png"class="rounded mx-auto d-block" width="300" height="200"></a>
+              <a href="lat_hum.html"><img src="images\Fig2.png" class="rounded mx-auto d-block"width="300" height="200"></a>
+              <a href="lat_cloud.html"><img src="images\Fig3.png" class="rounded mx-auto d-block"width="300" height="200"></a>
+              <a href="lat_wind.html"><img src="images\Fig4.png"class="rounded mx-auto d-block" width="300" height="200"></a>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class ="col-md-12 justify-content-center">
+          <div class= "h-100 d-inline-block">
+            <img src="images\sunny.jpg"  width="318" height="250"></a>
+            <img src="images\clouds.jpg" width="318" height="250"></a>
+            <img src="images\tornado.jpg" width="318" height="250"></a>
+            <img src="images\snow.jpg" width="318" height="250"></a>
+            <hi></hi>
+          </div>
+          </div>
+      </div>
+</body> 
+      
